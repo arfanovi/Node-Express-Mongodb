@@ -1,0 +1,24 @@
+
+
+
+
+
+
+What is Modules ?
+=> Module is a set of function . (think about js libraries such as Math).
+
+
+
+Different Types of Modules 
+=> Three Types of Modules 
+    1. Local Module (own created modules)
+    2. Build in Modules (node.js own modules) - http, url, path , fs, (no need install).
+    3. External modules (managed by npm).
+
+
+
+
+Local Modules -export, import 
+
+
+
