@@ -1,0 +1,8 @@
+
+HTTP Status Code 
+
+1. Informational response (100-199)
+2. Successful response (200-299)
+3. Redirects (300-499)
+4. Client Errors (400-499)
+5. Server Error (500-599)
