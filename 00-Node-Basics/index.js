@@ -12,5 +12,5 @@ console.log(getName());
 
 
 
-const { department } = require('./student');
-console.log(department());
+const { id } = require('./student')
+console.log(id())

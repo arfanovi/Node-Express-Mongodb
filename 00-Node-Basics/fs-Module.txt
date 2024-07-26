@@ -1,0 +1,26 @@
+*******************
+Fs Module 
+******************
+writeFile()
+appendFile()
+readFile()
+rename()
+unlink()
+Exists()
+
+
+
+************************
+Async and Sync Function 
+************************
+writeFileSync()
+appendFileSync()
+readFileSync()
+renameSync()
+unlinkSync()
+existsSync()
+
+
+Uses Fs Module
+--------------
+const fs = require('fs)
