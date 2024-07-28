@@ -23,7 +23,7 @@ app.get("/", (req,res)=>{
 
 */
 
-
+// END 
 
 // Route Param 
 /*
@@ -35,7 +35,7 @@ app.get("/userId/:id/userAge/:age", (req,res)=>{
 
 })
 */
-
+// END 
 
 // Headers 
 /*
@@ -45,7 +45,7 @@ app.get("/", (req,res)=>{
     res.send(`Student id is ${id} and name is ${name}`)
 })
 */
-
+// END 
 
 
 
@@ -55,6 +55,20 @@ app.post("/user", (req,res)=>{
     const name  = req.body.name;
     res.send(`Welcome ${name}`)
 })
+// END 
+
+
+// send and receive form data
+
+
+app.get("/registerForm", (req,res)=>{
+    res.sendFile(__dirname + "/index.html")
+})
+app.post("/registerForm", (req,res)=>{
+    const fullName = req.body.fullName;
+    res.send(`<h1>Your Name is ${fullName}</h1>`)
+})
+
 
 app.listen(PORT, ()=>{
     console.log(`Server is running ${PORT}`)
