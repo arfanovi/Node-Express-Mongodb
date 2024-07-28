@@ -1,0 +1,54 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circle</title>
+    <style>
+        .head{
+            background-color: rgb(129, 192, 192);
+            color: rgb(32, 3, 3);
+            height: 30vh;
+            width: 40vh;
+            font-size: 5vh;
+            /* padding: 10px; */
+            
+        }
+        .head li {
+            margin-top: 10px;
+        }
+        .head li a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            
+        }
+      
+    </style>
+</head>
+<body>
+    <header >
+        <h1><h1>Area Calculator</h1></h1>
+        <nav>
+            
+            <ul class="head">
+                <li><a href="/triangle">Triangle</a></li>
+                <li><a href="/circle">Circle</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <h1>Circle Calculator</h1>
+        <form action="/circle" method="post">
+            <label for="radius">Radius</label>
+            <input type="text" name="radius" id="radius" placeholder="radius">
+            <button type="submit">Calculate</button>
+        </form>
+        
+    </main>
+</body>
+</html>
