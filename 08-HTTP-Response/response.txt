@@ -1,0 +1,8 @@
+
+
+Response 
+    * Body can contain data as HTML, Text, JSON etc
+    * Cookies
+    * Headers
+    * statusCode 
+    
