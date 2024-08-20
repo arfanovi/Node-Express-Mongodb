@@ -1,0 +1,14 @@
+
+
+What is MVC ?
+ => Separation of Concern .
+ => Models 
+ => Views 
+ => Routes 
+ => Controllers 
+ => Controller have all the logic 
+
+
+ Separation of Concern(SOC)
+  * 50 lines server 
+  * 
